@@ -1,6 +1,13 @@
 .sm-icons {
     flex-direction: row;
   }
+  
+  .services-list li {
+      list-style-position: inside;
+  }
+  .services-list li:nth-child(odd) {
+    background-color: #f2f2f2;
+  }  
   @media only screen and (max-width: 960px) {
     .sm-icons .nav-item {
       padding-right: 1em;
@@ -97,13 +104,13 @@
         }
 
 
-        .services-list {
-            padding-top: 10px;
+        .services-list li {
+            padding-top: 15px;
             padding-bottom: 0px;
             padding-right: 100px;
             padding-left: 100px;
-            margin-bottom: 0px;
-            margin-top: 0px;
+            padding-bottom: 15px;
+            margin-top: 0px;            
         }
 
 
@@ -261,13 +268,15 @@
         margin-left: 0px;
         margin-right: 0px;
     }
-.services-list {
+.services-list li {
     padding-top: 10px;
     padding-bottom: 0px;
     padding-right: 50px;
     padding-left: 50px;
+    padding-bottom: 10px;
+    margin-left: 0px;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 0px;    
 }
 
 
