@@ -1,274 +1,263 @@
 .sm-icons {
-    flex-direction: row;
+  flex-direction: row;
+}
+
+.services-list li {
+  list-style-position: inside;
+}
+.services-list li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.work-with-us-container {
+  background: url("/img/work-with-us-background.webp") no-repeat center center;
+  background-size: 100%;
+  transition: background-size 0.3s ease-in-out;
+}
+.work-with-us-container .services-title,
+.work-with-us-container p {
+  color: white;
+}
+.work-with-us-container .services-title svg {
+  vertical-align: top;
+  padding-left: 4px;
+}
+.work-with-us-container:hover {
+  background-size: cover;
+  background-size: 110%;
+}
+@media only screen and (max-width: 960px) {
+  .sm-icons .nav-item {
+    padding-right: 1em;
   }
-  
+}
+
+/* screens larger than large breakpoint of 992px */
+@media only screen and (min-width: 992px) {
+  .home-banner-responsive {
+    display: none;
+  }
+
+  .header-1 {
+    margin-top: 80px;
+  }
+
+  .opening-paragraph {
+    padding: 20px 100px 20px 0px;
+  }
+
+  .slick-slider .slick-slide {
+    margin: 35px;
+  }
+
+  .img-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .circle-holder {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    clear: both;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-color: #afafaf;
+  }
+
+  .services-col {
+    margin: 25px 25px 25px 25px;
+  }
+
+  .center-text-here {
+    text-align: center;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .process-mobile-only {
+    display: none;
+  }
+
+  .recent-projects {
+    margin-top: 100px;
+  }
+
+  .bio-content {
+    width: 50%;
+  }
+
+  .leadership-label-mobile {
+    display: none;
+  }
+
+  .bio {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .learn-more {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+
+  .columns {
+    column-count: 2;
+  }
+
+  .margin-80 {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 100px;
+  }
+
   .services-list li {
-      list-style-position: inside;
-  }
-  .services-list li:nth-child(odd) {
-    background-color: #f2f2f2;
-  }  
-  @media only screen and (max-width: 960px) {
-    .sm-icons .nav-item {
-      padding-right: 1em;
-    }
-
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    margin-top: 0px;
   }
 
-
-    /* screens larger than large breakpoint of 992px */
-    @media only screen and (min-width: 992px) {
-        .home-banner-responsive {
-            display:none;
-        }
-
-        .header-1 {
-            margin-top: 80px;
-        }
-
-        .opening-paragraph {
-            padding: 20px 100px 20px 0px;
-        }
-
-        .slick-slider .slick-slide {
-            margin: 35px;
-        }
-
-        .img-icon {
-            width: 50px;
-            height: auto;
-            padding-top: 20px;
-            padding-bottom: 30px;
-        }
-
-        .circle-holder {
-            position: relative;
-            display: inline-block;
-            width: 100%;
-            clear: both;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            border-color: #afafaf;
-        }
-
-        .services-col {
-            margin: 25px 25px 25px 25px;
-            
-        }
-
-        .center-text-here {
-            text-align: center;
-        }
-
-        .text-right {
-            text-align: right;
-        }
-
-
-        .process-mobile-only {
-            display: none;
-        }
-
-        .recent-projects {
-            margin-top: 100px;
-        }
-
-        .bio-content {
-            width: 50%;
-        }
-        
-        .leadership-label-mobile {
-            display: none;
-        }
-
-        .bio {
-            padding-left: 50px;
-            padding-top: 50px;
-            padding-bottom: 100px;
-        }
-
-        .learn-more {
-            padding-right: 250px;
-            padding-left:250px;
-        }
-
-        .columns {
-            column-count: 2;
-        }
-
-        .margin-80 {
-            margin-left: 60px;
-            margin-right: 60px;
-            margin-top: 100px;
-        }
-
-
-        .services-list li {
-            padding-top: 15px;
-            padding-bottom: 0px;
-            padding-right: 100px;
-            padding-left: 100px;
-            padding-bottom: 15px;
-            margin-top: 0px;            
-        }
-
-
-.solid {
+  .solid {
     border: 3px solid #7ca6bb;
     width: 10%;
     opacity: 1;
     margin-left: 80px;
-    margin-bottom:20px;
-}
+    margin-bottom: 20px;
+  }
 
-.blue-solid {
+  .blue-solid {
     border: 3px solid #7ca6bb;
     width: 10%;
     opacity: 1;
-    margin-bottom:20px;
-}
+    margin-bottom: 20px;
+  }
 
-.gray-col {
+  .gray-col {
     margin-left: 40px;
-}
+  }
 
-
-.project-para {
+  .project-para {
     margin-top: 40px;
     margin-right: 20px;
+  }
 }
-    }
 
-        
+/* screens smaller than large breakpoint of 992px */
 
+@media only screen and (max-width: 992px) {
+  .curve-home {
+    display: none;
+  }
 
-  /* screens smaller than large breakpoint of 992px */
+  .opening-paragraph {
+    padding: 20px 0px 20px 0px;
+  }
 
-  @media only screen and (max-width: 992px) {
-  
-    .curve-home {
-        display:none;
-    }
+  .slick-slider .slick-slide {
+    margin: 15px;
+  }
 
-    .opening-paragraph {
-        padding: 20px 0px 20px 0px;
-    }
+  .img-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 
-    .slick-slider .slick-slide {
-        margin: 15px;
-    }
+  .center-text-here {
+    text-align: left;
+  }
 
-   
+  .text-right {
+    text-align: left;
+  }
 
-    .img-icon {
-        width: 30%;
-        height: auto;
-        padding-top: 20px;
-        padding-bottom: 30px;
-    }
+  h1 {
+    font-size: 26px;
+  }
 
-    
+  .services-coll {
+    margin-bottom: 50px;
+  }
 
-    .center-text-here {
-        text-align: left;
-    }
+  .circles-shortcode {
+    display: none;
+  }
 
-    .text-right {
-        text-align: left;
-    }
+  .recent-projects {
+    margin-top: 10px;
+  }
 
-    h1 {
-        font-size: 26px;
-    }
+  .bio-content {
+    width: 100%;
+  }
 
-    .services-coll {
-        margin-bottom: 50px;
-    }
+  .leadership-label {
+    display: none;
+  }
 
-    .circles-shortcode {
-        display: none;
-    }
+  .bio {
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
 
-    .recent-projects {
-        margin-top: 10px;
-    }
+  .learn-more {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 
-    .bio-content {
-        width: 100%;
-    }
-    
-    .leadership-label {
-        display: none;
-    }
+  .columns {
+    column-count: 3;
+  }
 
-    .bio {
-        padding-left: 0px;
-        padding-top: 50px;
-        padding-bottom: 100px;
-    }
-
-    .learn-more {
-        padding-right: 0px;
-        padding-left:0px;
-    }
-
-    .columns {
-        column-count: 3;
-    }
-    
-
-.solid {
+  .solid {
     border: 3px solid #7ca6bb;
     width: 15%;
     opacity: 1;
     margin-left: 20px;
-    margin-bottom:20px;
-}
+    margin-bottom: 20px;
+  }
 
-.blue-solid {
+  .blue-solid {
     border: 3px solid #7ca6bb;
     width: 10%;
     opacity: 1;
-    margin-bottom:20px;
-}
+    margin-bottom: 20px;
+  }
 
-
-.gray-col {
+  .gray-col {
     margin-top: 50px;
     margin-left: 0px;
-}
+  }
 
-.project-para {
+  .project-para {
     margin-top: 40px;
     margin-right: 0px;
     margin-bottom: 50px;
+  }
 }
 
+/* Smallest Devices */
 
+@media only screen and (max-width: 992px) {
+  .slick-slider .slick-slide {
+    margin: 5px;
   }
 
-
-  /* Smallest Devices */
-
-  @media only screen and (max-width: 992px) {
-
-    .slick-slider .slick-slide {
-        margin: 5px;
-    }
-
-    .img-icon {
-        width: 20%;
-        height: auto;
-        padding-top: 20px;
-        padding-bottom: 30px;
-    }
-
-    .margin-80 {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-.services-list li {
+  .margin-80 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .services-list li {
     padding-top: 10px;
     padding-bottom: 0px;
     padding-right: 50px;
@@ -276,16 +265,14 @@
     padding-bottom: 10px;
     margin-left: 0px;
     margin-bottom: 0px;
-    margin-top: 0px;    
-}
+    margin-top: 0px;
+  }
 
-
-.solid {
+  .solid {
     border: 3px solid #7ca6bb;
     width: 20%;
     opacity: 1;
     margin-left: 20px;
-    margin-bottom:20px;
-}
-
+    margin-bottom: 20px;
   }
+}
