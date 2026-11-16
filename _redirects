@@ -1,0 +1,2 @@
+# Tailored Capabilities Statements are served from the ici-capabilities Netlify project
+/capabilities/*  https://ici-capabilities.netlify.app/capabilities/:splat  200
